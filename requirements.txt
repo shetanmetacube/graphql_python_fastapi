@@ -1,6 +1,6 @@
 ariadne==0.19.1
 fastapi==0.95.1
-matplotlib==3.7.1
+matplotlib==3.5.3
 openai==0.27.4
 pandas==2.0.0
 plotly==5.14.1
