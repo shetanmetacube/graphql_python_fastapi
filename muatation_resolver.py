@@ -1,5 +1,5 @@
 #python model sentence similarity
-from sentence_transformers import SentenceTransformer,util
+#from sentence_transformers import SentenceTransformer,util
 import pandas as pd
 import requests
 import json

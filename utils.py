@@ -1,5 +1,5 @@
 # This file contains all the util methods
-from sentence_transformers import SentenceTransformer,util
+#from sentence_transformers import SentenceTransformer,util
 import pandas as pd
 import openai
 from openai.embeddings_utils import get_embedding
