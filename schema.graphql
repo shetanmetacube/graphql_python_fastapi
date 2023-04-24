@@ -1,0 +1,23 @@
+type Company {
+   id: String!,
+   name: String!,
+   rank: String!,
+   employees: String!,
+   assets : String!,
+   url_company: String!,
+   profits : String!,
+   revenues : String!,
+   profits_percent_change : String!,
+   revenue_percent_change : String!
+}
+type Query {
+  getAllCompanyInfo: [Company]!
+  getSimilarCompaniesInfo(name: String!, top_k: Int!): [Company]!
+  allStatementsForSimilaritySearch: [String]!
+}
+
+type Mutation {
+  addNewCompany(company_json_str: String!): String
+  createSentenceEmbedding : String
+  storeDataIntoCSVFromAPI(api_url: String!): String
+}
